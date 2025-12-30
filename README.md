@@ -25,7 +25,7 @@ LLM을 전통적인 방어나 공격 특화가 아닌 기만으로 사용했습�
 ---
 
 ## 🏗️ 시스템 아키텍처
-![workflow](/Schrödinger's%20Webpage/img/flow.png)
+![workflow](img/flow.png)
 
 전체 워크플로우는 입력값에서 공격 패턴을 먼저 탐지하고, 공격이 감지되면 `UNION SELECT` 여부에 따라 분기하여 **가짜 데이터베이스 덤프** 또는 **가짜 MySQL 에러**를 AI로 생성한 뒤, 모든 이벤트를 로깅하여 관제실에 표시합니다. [chart:167]
 
@@ -119,8 +119,8 @@ python main.py
 ---
 
 ## 데모 스크린샷
-![공격1](/Schrödinger's%20Webpage/img/attack1.png)
-![공격2](/Schrödinger's%20Webpage/img/attack2.png)
-![에러1](/Schrödinger's%20Webpage/img/error1.png)
-![에러2](/Schrödinger's%20Webpage/img/error2.png)
-![로그](/Schrödinger's%20Webpage/img/log.png)
+![공격1](img/attack1.png)
+![공격2](img/attack2.png)
+![에러1](img/error1.png)
+![에러2](img/error2.png)
+![로그](img/log.png)
